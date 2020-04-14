@@ -15,8 +15,8 @@ Then unzip this folder and put them in a directory called "data" under the Shape
 ### Prepare train & validation dataset
 
 Shapenet contains 16 shape categories. Each category is annotated with 2 to 6 parts and there are 50 different parts annotated in total.
-If you open the train_labels data directory you will find 16 sub-directories where each one contains ".seg" files and each line of this files contains a number betwenn 0 and 6. what we want is to associate a unique number to each part before creating the dataset.
-This is done in "process_data.py", after executing it you should have 4 "npy" arrays added ( train data/labels and validation data/labels). 
+If you open the train_labels data directory you will find 16 sub-directories where each one contains "seg" files and each line of these files contain a number between 0 and 6. What we want is to associate a unique number to each part before creating the dataset.
+This is done in "process_data.py", after executing it you should have 4 "npy" arrays added (train data/labels and validation data/labels). 
 
 ### Running the tests
 
@@ -24,19 +24,19 @@ Now, you only need to upload the data to your drive and run the colab notebook o
 
 ## some results
 
- * good results
+ * good results : 
  
-  ![](https://drive.google.com/uc?id=1LDoK-7pn7mfp43EF4ShK_u1YHWGpxATZ)
+  ![plane](https://drive.google.com/uc?export=view&id=1LDoK-7pn7mfp43EF4ShK_u1YHWGpxATZ)
+
+  ![chair](https://drive.google.com/uc?export=view&id=1r7gttzbzW87NF9Bg2-CFSefjnVxfUS_4)
   
-  ![](https://drive.google.com/uc?id=1r7gttzbzW87NF9Bg2-CFSefjnVxfUS_4)
+  ![table](https://drive.google.com/uc?export=view&=id=1yx0QzC5KQRptajJP18gPF35u40123cpn)
   
-  ![](https://drive.google.com/uc?id=1yx0QzC5KQRptajJP18gPF35u40123cpn)
+ * meduim/bad results : 
+
+  ![lamp](https://drive.google.com/uc?export=view&id=1z8raJI0wQ142RNkrx7yIVfEC6jJ91WWB)
   
- * meduim/bad results
- 
-  ![](https://drive.google.com/open?id=1z8raJI0wQ142RNkrx7yIVfEC6jJ91WWB)
-  
-  ![](https://drive.google.com/open?id=1aP-TI-M6I6JCQdgmanc6nrlJoBWaW986)
+  ![car](https://drive.google.com/uc?export=view&id=1aP-TI-M6I6JCQdgmanc6nrlJoBWaW986)
 
 
 ## Acknowledgments
