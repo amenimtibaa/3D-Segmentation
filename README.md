@@ -26,16 +26,23 @@ Now, you only need to upload the data to your drive and run the colab notebook o
 
 good results : 
 
-<img src="https://drive.google.com/uc?export=view&id=1LDoK-7pn7mfp43EF4ShK_u1YHWGpxATZ">
 
-<img src="https://drive.google.com/uc?export=view&id=1r7gttzbzW87NF9Bg2-CFSefjnVxfUS_4">
+![](results/plane.png?raw=true)
+
+
+![](results/chair.png?raw=true)
+
+
+![](results/table1.png?raw=true)
 
 
 meduim/bad results : 
 
-<img src="https://drive.google.com/uc?export=view&id=1z8raJI0wQ142RNkrx7yIVfEC6jJ91WWB">
 
-<img src="https://drive.google.com/uc?export=view&id=1aP-TI-M6I6JCQdgmanc6nrlJoBWaW986">
+![](results/LAMPE.png)
+
+
+![](results/CAR1.png)
 
 
 
